@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "add-all": "git add .",
     "commit": "cz",
+    "push": "git push origin main",
     "build": "vue-tsc && vite build",
     "predeploy": "pnpm run build",
     "deploy": "gh-pages -d dist"
