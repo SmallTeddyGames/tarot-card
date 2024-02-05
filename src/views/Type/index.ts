@@ -23,9 +23,21 @@ type GameInfoType = {
     // 游戏日志(Todo: 数据结构待定)
     gameLogItems: any[];
 }
+/**
+ * 卡牌信息
+ */
+type CardItem = {
+    // 卡牌类型
+    type: string;
+    // 卡牌内容
+    content: string;
+    // 卡牌图片
+    img: string;
+}
 
 export type {
     DifficultyType,
     GameStateType,
-    GameInfoType
+    GameInfoType,
+    CardItem
 }
